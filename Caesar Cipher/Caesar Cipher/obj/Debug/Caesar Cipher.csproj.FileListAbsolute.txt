@@ -32,3 +32,15 @@ E:\Google Drive\Matthew\Programming and Development\Master Projects\C#\Caesar Ci
 E:\Google Drive\Matthew\Programming and Development\Master Projects\C#\Caesar Cipher\Caesar Cipher Master Project\Caesar Cipher\obj\Debug\Caesar Cipher.csproj.CoreCompileInputs.cache
 E:\Google Drive\Matthew\Programming and Development\Master Projects\C#\Caesar Cipher\Caesar Cipher Master Project\Caesar Cipher\obj\Debug\Caesar Cipher.exe
 E:\Google Drive\Matthew\Programming and Development\Master Projects\C#\Caesar Cipher\Caesar Cipher Master Project\Caesar Cipher\obj\Debug\Caesar Cipher.pdb
+E:\Projects\project-Caesar Cipher\Caesar Cipher\Caesar Cipher\bin\Debug\Caesar Cipher.exe.config
+E:\Projects\project-Caesar Cipher\Caesar Cipher\Caesar Cipher\bin\Debug\Caesar Cipher.exe
+E:\Projects\project-Caesar Cipher\Caesar Cipher\Caesar Cipher\bin\Debug\Caesar Cipher.pdb
+E:\Projects\project-Caesar Cipher\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar Cipher.csprojAssemblyReference.cache
+E:\Projects\project-Caesar Cipher\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar_Cipher.MainForm.resources
+E:\Projects\project-Caesar Cipher\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar_Cipher.HelpForm.resources
+E:\Projects\project-Caesar Cipher\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar_Cipher.Properties.Resources.resources
+E:\Projects\project-Caesar Cipher\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar_Cipher.UpdateForm.resources
+E:\Projects\project-Caesar Cipher\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar Cipher.csproj.GenerateResource.cache
+E:\Projects\project-Caesar Cipher\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar Cipher.csproj.CoreCompileInputs.cache
+E:\Projects\project-Caesar Cipher\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar Cipher.exe
+E:\Projects\project-Caesar Cipher\Caesar Cipher\Caesar Cipher\obj\Debug\Caesar Cipher.pdb

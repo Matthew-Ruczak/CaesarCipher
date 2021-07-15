@@ -28,12 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.CipheredTextrichTextBox = new System.Windows.Forms.RichTextBox();
             this.TextToBeCipheredrichTextBox = new System.Windows.Forms.RichTextBox();
             this.TypeOfCiphertrackBar = new System.Windows.Forms.TrackBar();
             this.TypeOfCaesarCipherlabel = new System.Windows.Forms.Label();
-            this.Maintimer = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -65,6 +63,7 @@
             this.TextToBeCipheredrichTextBox.Size = new System.Drawing.Size(303, 114);
             this.TextToBeCipheredrichTextBox.TabIndex = 2;
             this.TextToBeCipheredrichTextBox.Text = "";
+            this.TextToBeCipheredrichTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TextToBeCipheredrichTextBox_KeyUp);
             // 
             // TypeOfCiphertrackBar
             // 
@@ -82,11 +81,6 @@
             this.TypeOfCaesarCipherlabel.Size = new System.Drawing.Size(13, 13);
             this.TypeOfCaesarCipherlabel.TabIndex = 4;
             this.TypeOfCaesarCipherlabel.Text = "0";
-            // 
-            // Maintimer
-            // 
-            this.Maintimer.Enabled = true;
-            this.Maintimer.Tick += new System.EventHandler(this.Maintimer_Tick);
             // 
             // label1
             // 
@@ -161,14 +155,14 @@
             // howDoesItWorkToolStripMenuItem
             // 
             this.howDoesItWorkToolStripMenuItem.Name = "howDoesItWorkToolStripMenuItem";
-            this.howDoesItWorkToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.howDoesItWorkToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.howDoesItWorkToolStripMenuItem.Text = "How does it work?";
             this.howDoesItWorkToolStripMenuItem.Click += new System.EventHandler(this.howDoesItWorkToolStripMenuItem_Click);
             // 
             // updateToolStripMenuItem
             // 
             this.updateToolStripMenuItem.Name = "updateToolStripMenuItem";
-            this.updateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.updateToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.updateToolStripMenuItem.Text = "Update";
             this.updateToolStripMenuItem.Click += new System.EventHandler(this.updateToolStripMenuItem_Click);
             // 
@@ -208,7 +202,6 @@
         private System.Windows.Forms.RichTextBox TextToBeCipheredrichTextBox;
         private System.Windows.Forms.TrackBar TypeOfCiphertrackBar;
         private System.Windows.Forms.Label TypeOfCaesarCipherlabel;
-        private System.Windows.Forms.Timer Maintimer;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
